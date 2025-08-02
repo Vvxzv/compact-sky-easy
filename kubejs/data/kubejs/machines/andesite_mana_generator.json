@@ -1,0 +1,49 @@
+{
+    "name": "andesite_mana_generator",
+    "appearance": {
+        "block": "kubejs:machine/andesite_mana_generator",
+        "lightlevel": 0,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "components": [
+        {
+            "type": "custommachinery:contraption",
+            "mode": "input",
+            "config": {
+                "default": "none",
+                "top": "both",
+                "bottom": "both"
+            }
+        },
+        {
+            "mode":"output",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        }
+    ],
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x":123,
+            "y":35,
+            "type":"custommachinery:mana"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "andesite_mana_generator",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "kubejs:block/custom_machinery/wither_machine/front_active",
+		"1": "kubejs:block/custom_machinery/wither_machine/back_active",
+		"2": "kubejs:block/custom_machinery/wither_machine/top_active",
+		"3": "kubejs:block/custom_machinery/wither_machine/left_active",
+		"4": "kubejs:block/custom_machinery/wither_machine/right_active",
+		"particle": "kubejs:block/custom_machinery/wither_machine/front_active"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade":false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "14D33326E13E05EC"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "kubejs:soul_vein_setter" }
+		{ item: "kubejs:nether_gold_vein_setter" }
+		{ item: "kubejs:fluorite_vein_setter" }
+	]
+	title: "矿脉设置手杖"
+}

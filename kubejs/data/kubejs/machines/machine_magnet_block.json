@@ -1,0 +1,15 @@
+{
+    "name": "machine_magnet_block",
+    "appearance": {
+        "block": "kubejs:magnet_block",
+        "lightlevel": 0,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "components": [
+        {
+            "type": "custommachinery:redstone",
+            "powertopause": 1
+        }
+    ]
+}

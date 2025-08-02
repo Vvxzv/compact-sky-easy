@@ -1,0 +1,81 @@
+{
+    "name": "wither_machine",
+    "appearance": {
+        "block": "kubejs:machine/wither_machine",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/wither_machine_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "id": "input",
+            "x": 95,
+            "y": 20,
+            "type": "custommachinery:energy"
+        },
+        {
+            "x": 120,
+            "y": 32,
+            "type": "custommachinery:progress"
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 230,
+            "y": 25
+        },
+        {
+            "id":"output",
+            "x": 150,
+            "y": 32,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "wither_machine",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode": "input",
+            "id": "input",
+            "type": "custommachinery:energy",
+            "capacity": 1000000,
+            "config":{
+                "input": true,
+                "top":"input",
+                "bottom":"input",
+                "front":"input",
+                "back":"input",
+                "right":"input",
+                "left":"input"
+            }
+        },
+        {
+            "mode": "output",
+            "id":"output",
+            "type": "custommachinery:item"
+        }
+    ],
+    "catalysts": []
+  }

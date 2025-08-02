@@ -1,0 +1,288 @@
+{
+
+    "c0.t":"Before start",
+
+    "c0.q1.t1":"Welcome to play",
+    "c0.q1.s1":"The commands that have already been set",
+    "c0.q1.d1":"Survival\n/gamemode survival\n\nPeaceful\n/difficulty peaceful\n\nKeep Inventory\n/gamerule keepInventory true\n\nAlways Day\n/gamerule doDaylightCycle false\n/time set noon\n\nFire not Spread\n/gamerule doFireTick false\n\nClear Day\n/gamerule doWeatherCycle false\n/weather clear\n\nNo Mob Spawning\n/gamerule doMobSpawning false",
+
+    "c0.q1.t2":"Author's words",
+    "c0.q1.d2":"This is the first modpack I have made. If you have any question, you can contact me.\n\nAuthor's Bilibili ID: §e心知0w0\n&bhttps://space.bilibili.com/393705540 §r\n\n§7English(US) translated from 简体中文(中国大陆) using AI",
+    
+    "thanks":"\n\nThanks for the personnel list（All IDs are Bilibili ID）\n§e是个龙啸呀\n&bhttps://space.bilibili.com/451025800 &r\n\n§e初安不是川\n&bhttps://space.bilibili.com/55434641 &r\n\n§e烟酱籽\n&bhttps://space.bilibili.com/398317740 &r\n\n§e『明天你好』\n&bhttps://space.bilibili.com/6753903 &r\n\n§e『飞怀机牌芒果冻布丁』\n&bhttps://space.bilibili.com/430008973 &r",
+    
+    "c0.q1.d2.tips":"If you cannot quickly write pattern in AE, you can delete REI and replace it with JEI\n\n",
+    
+    "c0.q1.d2.warn":"&cWARN: \nDo not place machine on the beacon! ! !\nDo not place machine on the beacon! ! !\nDo not place machine on the beacon! ! !",
+
+    "c0.q1.t3":"Tools",
+    "c0.q1.d3":"The tools you may use",
+
+    "c0.q1.t4":"Books",
+    "c0.q1.d4":"The books you may use",
+
+    "c0.q1.t5":"It seems like these words are hinting at something",
+    "c0.q1.s5":"But it doesn't seem to hinder you from playing the game smoothly",
+    "c0.q1.d5":"\"&d创造模式取出升级&r\"",
+
+
+
+
+    "c1.t":"Game",
+
+    "c1.q1.water":"Do you want to use this to make water?",
+    
+    "c1.q1.d1": "You should first dig up the first layer of dirt from the floating island.",
+  
+    "c1.q1.s2": "To get more dirt.",
+    
+    "c1.q1.d2": "If the compact crafting doesn't respond when you try to craft compressed dirt, you can try &4replacing&r the projector.\n\n&4You can use the @Create wrench to take the field projector.\n&r\n\n\nCraft \"&d木锤&r\",\nSmash \"&d二重压缩泥土&r\",\nThen you will get \"&d压缩泥土&r\".",
+    
+    "c1.q1.d3": "This stick is very dirty, we need to pay attention to hygiene. So, clean the stick before using it.",
+    
+    "c1.q1.d4": "There is a block of ice on this island. Destroying it and it will change to water.",
+    
+    "c1.q1.d5": " ",
+    
+    "c1.q1.d6": "I think you need to move the water to another place.\n\nIf you accidentally lose the water. Congratulations! you need to start a new save.",
+    
+    "c1.q1.d7": " ",
+    
+    "c1.q1.d8": "You can use it to quickly craft dirt.",
+    
+    "c1.q1.d9": " ",
+    
+    "c1.q1.d14": "Water is the source of life. Putting a withered bush in water will bring it back to life.",
+    
+    "c1.q1.d15": "Unfortunately, this grass cannot be planted on dirt.",
+    
+    "c1.q1.d16_1": "These leaves look just like the real ones!",
+    
+    "c1.q1.d16_2": "After all, this is just the dark oak leaves with a modified name, haha :D",
+    
+    "c1.q1.s17": "With saplings, the game truly begins.",
+
+
+    "c1.q2.d1": "Get some useful wood!",
+
+    "c1.q2.d3": "Dig, dig, dig in the small compressed dirt.",
+
+    "c1.q2.d4": " ",
+
+    "c1.q2.d6": "I guess these things will definitely be useful.",
+
+    "c1.q2.d7": "This one might be quite important.",
+
+    "c1.q2.d8": "It can make mysterious flowers grow on the dirt. \nWith mysterious flowers, you'll have an endless supply of flower fertilizer.",
+
+    "c1.q2.d13": "The combination of mysterious flowers will contain powerful magic.",
+
+    "c1.q2.d14": "It can create many useful flowers.",
+
+    "c1.q2.d15": "Start creating Mana",
+
+    "c1.q2.d16": "Normal living wood.",
+
+    "c1.q2.d17": "Get wheat seeds in grass.",
+
+    "c1.q2.d18": "What is this?",
+
+    "c1.q2.d19": "Wow! It's a huge Mana Spreader.",
+
+    "c1.q2.d20": "It can only fill 10,000 mana.",
+
+    "c1.q2.d21": "This string is very sturdy!",
+
+    "c1.q2.d22": "Throwing it into a mana pool, then the pool will add 8,000 mana.",
+    "c1.q2.d22.add": "Originally, this task was hidden, \nbut it seems like no one noticed, \nso I won’t hide it anymore (=ω=).",
+
+    "c1.q2.t23": "Sieving!",
+    "c1.q2.s23": "Let's see if we can sieve out something useful?",
+
+    "c1.q2.d24": " ",
+
+    "c1.q2.d25": "Should we plant some?",
+
+    "c1.q2.t26": "Various pebbles.",
+
+    "c1.q2.d27": "Gold! but it seems to have no use for now.",
+
+    "c1.q2.d41": "Such cheap flint and steel.",
+
+    "c1.q2.d42": " ",
+
+    "c1.q2.d43": "The sky won't get dark, so why do we need a campfire?",
+
+    "c1.q2.d45": "We can make stones now.",
+
+    "c1.q2.d46": "Stone!",
+
+    "c1.q2.d47": "Smelting ores.",
+
+    "c1.q2.d49": "We should be able to plant something, it would make things much easier.",
+
+    "c1.q2.d50": "This stone is alive!",
+
+    "c1.q2.d51":"Fill it with mana! \n\n\n\nThere is a very powerful item, \nUse &d\"魔力钢锄\"&r\nor&d\"源质钢锄\"&r\nbreak &d\"暗黑莲花方块\"&r\nThen you can get &d\"暗黑莲花\"&r，\nCertainly! Use &d\"源质钢锄\"&r\nbreak &d\"暗黑莲花方块\"&r\nyou will get it more！",
+
+    "c1.q2.d52":" ",
+
+    "c1.q2.d54":"Attention, you cannot dig obsidian up right now! \n\n\nEmmm, it seems that the manasteel pickaxe can dig it",
+
+    "c1.q2.t62":"This is the stone machine！",
+    
+    "c1.q2.s.betterlava":"Better way to make Lava！",
+    
+    "c1.q2.mt0":"Machines that can be made in this chapter(2)",
+
+
+    "c1.q3.clay": " ",
+
+    "c1.q3.cokebrick": "It seems the hammer was not placed in the morphing tools, so let's add one here.",
+
+    "c1.q3.iron_sheet": "It seems there are no useful press tools for now, so let's use the anvil as a press plate.",
+
+    "c1.q3.al": "Oxygen, silicon, aluminum, iron...",
+
+    "c1.q3.press": "Metal processing.",
+    "c1.q3.metal_mold":"Metal Mold",
+
+    "c1.q3.steelmetal":"Steel Metal",
+
+    "c1.q3.frame":"Frame",
+
+    "c1.q3.craftingcomponents":"Crafting Components",
+
+    "c1.q3.andeside_casing": "Andesite age!",
+
+    "c1.q3.heater": "This thing acts as a crucible heat source for producing lava quickly when working in the &cworkspace&r, but it only works near the &dfurnace&r.",
+
+    "c1.q3.steel": "Steel.",
+
+    "c1.q4.andeside_crafting_table": "You need this to start making machines.",
+
+    "c1.q4.press": "Now you don't need to press plates with the press machine anymore.",
+
+    "c1.q4.deepironore": "Are we starting to produce iron now?!",
+
+    "c1.q4.machine": "Machines you can make in this chapter (4).",
+
+    "c1.q4.machine.s": "Perhaps, this is the perpetual motion machine!",
+
+    "c1.q4.andesite.gearbox.infm":"&fConsumption of &e20 mana&f, output speed of &e16&f, total applied force of &e4096",
+
+    "c1.q4.andesite.manam.infm":"&fRequires speed of &e32&f and produces &e50 mana/t",
+
+    "c1.q4.advance_lapis": "Advanced Lapis Crystal Machine.",
+
+    "c1.q4.iron": "So this is the process for automating iron.",
+
+    "c1.q4.brass": "Brass age!",
+
+    "c1.q4.fortress": "It's best to pack a Blaze Spawner to take back.",
+
+    "c1.q4.blaze_cake": "Just roll 3456 of these to get infinite ones.",
+
+    "c1.q4.glowstone": "There are more ways to craft Glowstone.",
+
+    "c1.q4.tool": "These might be very useful.",
+
+    "c1.q4.acid": "Dilute sulfuric acid.",
+
+    "c1.q4.awkward":"Awkward Potion",
+
+    "c1.q4.nightvision":"Potion of Night Vision",
+
+    "c1.q4.lapis_dust": "The expectation is to use 100 pieces of dust.",
+
+    "c1.q4.lapis_crystal": "Fortunately, you only need one Lapis Powder.",
+
+    "c1.q4.orechid": "Unfortunately, you can't use this to produce ores.",
+
+    "c1.q4.ipm": "It’s still just a semi-finished product.",
+
+    "c1.q4.brass_casing": "The first brass casing needs to be crafted by compressed synthesis.\nLater ones can be crafted using the following method:\nIn the &bCompact world&f dimension, &aright-click &fthe &dBrass Ingot &fon &dRubberwood&f to obtain.",
+
+    "c1.q4.psd": "In case you accidentally lose it, you can claim it here again.",
+
+    "c1.q4.redstone": "If you have extra iron, you can also get a little redstone.",
+
+    "c1.q5.brass_crafting_table": "Advanced mechanical power workbench",
+
+    "c1.q5.crush": "Crushing wheel crush crushing wheel, will the crushing wheel be crushed by the crushing wheel?",
+
+    "c1.q5.machine": "Machines you can make in this chapter (5)",
+
+    "c1.q5.machine.s": "This should be the latest perpetual motion machine!",
+
+    "c1.q5.mana_machine": "I don't know why, but the Compact Crafting recipe doesn't show the texture of my custom machine.\nAnyway, the one that doesn't match the texture is the machine.",
+    "c1.q5.manam.infm":"&dBrass magic machine&f: requires a speed of &e256 &fand produces &e1200 mana/t.\n &dMagic brass gearbox&f: consumes &e60 mana&f, produces a speed of &e256&f, and has a total force of &e65536",
+
+    "c1.q5.machine_frame": "Thermal Age!",
+
+    "c1.q5.veinsetter":"Vein Setter",
+
+    "c1.q5.vein":"&cThe vein finder is not for you to find veins!!!",
+    "c1.q5.setter":"There are only three types of mineral veins in this world. You can submit the vein finder then you can claim the vein setter to set the vein.",
+
+
+    "c1.q6.smelter": "A method copied from a certain mod.",
+
+    "c1.q6.andeside": "Making stone in the compression space.",
+
+    "c1.q6.shulkerbox": "This is used to store things.",
+
+    "c1.q6.fluix": "So this mod includes AE2.",
+    
+    "c1.q6.ae":"&cIf you cannot quickly write pattern in AE, you can delete REI and replace it with JEI.",
+
+    "c1.q6.dragon_egg": "Defeat the Dragon!",
+
+    "c1.q6.shadow": "It fears light and likes to hide in corners.",
+
+    "c1.q6.radiance": "&dRadiant Compound&r absorbs light and converts it into &dGlowstone&r.",
+
+    "c1.q6.nether_star": "It's time to test your luck.",
+
+    "c1.q6.electricity": "Are you lacking power?",
+
+    "c1.q6.chromatic": "Three synthesis paths, just choose one.",
+
+    "c1.q7.infuse": "The first machine of general mechanics is probably this one.",
+
+    "c1.q7.beacon": "&4Do not place machines on the beacon!&r",
+
+    "c1.q7.mana_diamond": "Reversal of the heavenly grid!",
+
+    "c1.q7.coal_dust": "No way, bro!",
+
+    "c1.q7.coal": "Luckily, there's another recipe.",
+
+    "c1.q7.wither.d": "Don't worry, the Wither can't be summoned.",
+
+    "c1.q7.wither": "Wither.",
+
+
+    "c1.q8.u": "What a four-time mineral line!",
+
+    "c1.q8.hcl": "Hydrochloric acid",
+
+    "c1.q8.uo3": "Uranium oxide",
+
+    "c1.q8.hf": "Hydrofluoric acid",
+
+    "c1.q8.uf6": "Uranium hexafluoride",
+    "c1.q8.uf6.d":"Why don't you consider making a lime lumen paint ball?",
+
+    "c1.q8.reactor":"If there is still a power shortage, you can build a fusion reactor！",
+
+    "c1.q8.fuel": "Fission fuel",
+
+    "c1.q8.radiance": "It likes bright places",
+
+    "c1.q8.gaia": "Gaia!",
+
+    "c1.q10.thank":"Thank you for playing"
+
+
+}

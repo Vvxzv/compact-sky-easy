@@ -1,0 +1,79 @@
+{
+    "name": "deepore_gen",
+    "appearance": {
+        "block": "kubejs:machine/deepore_gen",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "id":"input1",
+            "x":90,
+            "y":35,
+            "type":"custommachinery:fluid"
+        },
+        {
+            "id": "input2",
+            "x": 154,
+            "y": 35,
+            "type": "custommachinery:fluid"
+        },
+        {
+            "id": "input",
+            "x": 120,
+            "y": 35,
+            "type": "custommachinery:mana"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "deepore_gen",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode":"input",
+            "id":"input",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        },
+        {
+            "mode": "input",
+            "id": "input1",
+            "type": "custommachinery:fluid",
+            "capacity": 4000,
+            "config": {
+                "default": "none",
+                "left": "both"
+            }
+        },
+        {
+            "mode": "input",
+            "id": "input2",
+            "type": "custommachinery:fluid",
+            "capacity": 4000,
+            "config": {
+                "default": "none",
+                "right": "both"
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ],
+    "catalysts": []
+  }

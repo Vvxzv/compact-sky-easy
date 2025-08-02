@@ -1,0 +1,2 @@
+execute if entity @e[distance=...5,tag=magnet,type=marker,limit=1] run function kubejs:magnet/do
+execute unless entity @e[distance=...5,tag=magnet,type=marker,limit=1] run summon marker ~ ~ ~ {Tags:["magnet"]}

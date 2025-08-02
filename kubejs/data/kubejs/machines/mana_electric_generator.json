@@ -1,0 +1,77 @@
+{
+    "name": "mana_electric_generator",
+    "appearance": {
+        "block": "kubejs:machine/mana_electric_generator",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/mana_electric_generator_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "id":"input",
+            "x":90,
+            "y":35,
+            "type":"custommachinery:mana"
+        },
+        {
+            "id": "output",
+            "x": 154,
+            "y": 35,
+            "type": "custommachinery:energy"
+        },
+        {
+            "x": 120,
+            "y": 50,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "mana_electric_generator",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode":"input",
+            "id":"input",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        },
+        {
+            "mode": "output",
+            "id": "output",
+            "type": "custommachinery:energy",
+            "capacity": 50000,
+            "maxOutput": 50,
+            "config":{
+                "output": true,
+                "top":"output",
+                "bottom":"output",
+                "front":"output",
+                "back":"output",
+                "right":"output",
+                "left":"output"
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ],
+    "catalysts": []
+  }

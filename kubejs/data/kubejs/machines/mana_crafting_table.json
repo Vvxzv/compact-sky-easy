@@ -1,0 +1,177 @@
+{
+    "name": "mana_crafting_table",
+    "appearance": {
+        "block": "kubejs:machine/mana_crafting_table",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "type": "custommachinery:reset",
+            "x": 220,
+            "y": 25
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 230,
+            "y": 45
+        },
+        {
+            "id":"input",
+            "x":47,
+            "y":20,
+            "type":"custommachinery:mana"
+        },
+        {
+            "id":"slot8",
+            "x":92,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot5",
+            "x":92,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot2",
+            "x":92,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot1",
+            "x":72,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot4",
+            "x":72,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot7",
+            "x":72,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot3",
+            "x":112,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot6",
+            "x":112,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot9",
+            "x":112,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id": "slot10",
+            "x": 165,
+            "y": 32,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 136,
+            "y": 32,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "mana_crafting_table",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode": "input",
+            "id": "input",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        },
+        {
+            "mode": "intput",
+            "id": "slot1",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot4",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot5",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot6",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot7",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot8",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "intput",
+            "id": "slot9",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot10",
+            "type": "custommachinery:item"
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ],
+    "catalysts": []
+  }

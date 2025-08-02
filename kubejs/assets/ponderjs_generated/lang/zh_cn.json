@@ -1,0 +1,49 @@
+{     
+    "kubejs.ponder.advanced_lapis_crystallize_controller.header": "高级青金石结晶多方块结构",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_1":"§d青金石结晶",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_2":"§d流体漏斗",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_3":"§7这个方块的§d水§7会被§c消耗",
+
+    "kubejs.ponder.deepore_gen.header": "深层矿石生成机工作原理",
+    "kubejs.ponder.deepore_gen.text_1": "§7在§by<0§7的位置放置机器",
+    "kubejs.ponder.deepore_gen.text_2": "§7给机器加入§d水§7、§d熔岩§7和注入§d魔力",
+    "kubejs.ponder.deepore_gen.text_3": "§7在机器上方放置§d深板岩",
+    "kubejs.ponder.deepore_gen.text_4": "§7等待片刻就会有矿物替换§d深板岩§7了",
+    
+    "kubejs.ponder.wither_machine.header":"凋零机多方块结构",
+    "kubejs.ponder.wither_machine.text_1":"§d凋零机§7，要在§b压缩空间维度§7才会工作",
+    "kubejs.ponder.wither_machine.text_2":"§d末影玻璃",
+    "kubejs.ponder.wither_machine.text_3":"§7放置凋零结构",
+    "kubejs.ponder.wither_machine.text_4":"§7在机器工作结束时，会消耗凋零结构，\n§7并在机器里产出§d下界之星",
+
+    "kubejs.ponder.gaia_machine.header":"盖亚机多方块结构",
+    "kubejs.ponder.gaia_machine.text_1":"§7盖亚仪式摆放方法",
+    "kubejs.ponder.gaia_machine.text_2":"§d盖亚机",
+
+    "kubejs.ponder.golden_hand.header":"金制手部件多方块制作",
+    
+    
+    "kubejs.ponder.refined_radiance_casing.header": "光辉机壳",
+    "kubejs.ponder.refined_radiance_casing.text_1": "§7在六面光照环境下",
+    "kubejs.ponder.shadow_steel_casing.header": "暗影机壳",
+    "kubejs.ponder.shadow_steel_casing.text_1": "§7在六面黑暗环境下",
+
+    "kubejs.ponder.runic_altar.header": "符文祭坛",
+
+    "kubejs.ponder.fired_crucible.header": "坩埚",
+
+    "kubejs.ponder.elevator_orange.header": "电梯的合成结构",
+    "kubejs.ponder.elevator_orange.text_1": "§d玻璃板",
+
+    "kubejs.ponder.brass_mana_generator.header": "黄铜产魔机",
+
+    "kubejs.ponder.mana_brass_gearbox_p.header": "魔力黄铜齿轮箱",
+
+    "kubejs.ponder.furnace_heater.header": "外置加热器",
+    "kubejs.ponder.furnace_heater.text_1": "§f当你使用§d外置加热器§f作为§d坩埚§f热源时，你需要使§d外置加热器§f处于工作状态",
+    "kubejs.ponder.furnace_heater.text_2": "§f给§d外置加热器§f通电后",
+    "kubejs.ponder.furnace_heater.text_3": "§f当§d熔炉§f冶炼物品时",
+    "kubejs.ponder.furnace_heater.text_4": "§f这时，你就可以使用§d坩埚§f了"
+    
+
+}

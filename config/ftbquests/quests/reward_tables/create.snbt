@@ -1,0 +1,13 @@
+{
+	id: "722D46B6D562BB39"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 4, item: "create:shaft" }
+		{ count: 4, item: "create:cogwheel" }
+		{ item: "create:gearbox" }
+		{ item: "create:vertical_gearbox" }
+		{ count: 2, item: "create:encased_chain_drive" }
+	]
+	title: "create"
+}

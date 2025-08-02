@@ -1,0 +1,11 @@
+{
+    "never_gonna_give_you_up":{
+        "sounds": [
+            {
+                "name": "kubejs:never",
+                "stream":true,
+                "volume": 1
+            }
+        ]
+    }
+}

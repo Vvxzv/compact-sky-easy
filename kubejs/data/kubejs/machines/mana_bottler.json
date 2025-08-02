@@ -1,0 +1,105 @@
+{
+    "name": "mana_bottler",
+    "appearance": {
+        "block": "kubejs:machine/mana_bottler",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/mana_bottler_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "type": "custommachinery:reset",
+            "x": 220,
+            "y": 25
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 230,
+            "y": 45
+        },
+        {
+            "id":"input1",
+            "x":48,
+            "y":25,
+            "type":"custommachinery:mana"
+        },
+        {
+            "id": "input2",
+            "x": 70,
+            "y": 25,
+            "type": "custommachinery:fluid"
+        },
+        {
+            "id": "input3",
+            "x": 91,
+            "y": 35,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output",
+            "x": 154,
+            "y": 35,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 120,
+            "y": 35,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "mana_bottler",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode":"input",
+            "id":"input1",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        },
+        {
+            "mode": "input",
+            "id": "input2",
+            "type": "custommachinery:fluid",
+            "capacity":4000
+        },
+        
+        {
+            "mode": "input",
+            "id": "input3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output",
+            "type": "custommachinery:item"
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ],
+    "catalysts": []
+  }

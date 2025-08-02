@@ -1,0 +1,51 @@
+{
+    "name": "mana_andesite_gearbox_s",
+    "appearance": {
+        "block": "kubejs:machine/mana_andesite_gearbox_s",
+        "lightlevel": 0,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "components": [
+        {
+            "type": "custommachinery:contraption",
+            "mode": "output",
+            "config": {
+                "default": "none",
+                "top": "both",
+                "bottom": "both",
+                "front":"both",
+                "back":"both"
+            }
+        },
+        {
+            "mode":"input",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        }
+    ],
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x":123,
+            "y":35,
+            "type":"custommachinery:mana"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "mana_andesite_gearbox_s",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ]
+}

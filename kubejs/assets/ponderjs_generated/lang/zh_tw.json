@@ -1,0 +1,24 @@
+{     
+    "kubejs.ponder.advanced_lapis_crystallize_controller.header": "高級青金石結晶多方塊結構",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_1":"§d青金石結晶",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_2":"§d流體漏斗",
+    "kubejs.ponder.advanced_lapis_crystallize_controller.text_3":"§7這個方塊的§d水§7會被§c消耗",
+
+    "kubejs.ponder.deepore_gen.header": "深層礦石生成機工作原理",
+    "kubejs.ponder.deepore_gen.text_1": "§7在§by<0§7的位置放置機器",
+    "kubejs.ponder.deepore_gen.text_2": "§7給機器加入§d水§7、§d熔岩§7和注入§d魔力",
+    "kubejs.ponder.deepore_gen.text_3": "§7在機器上方放置§d深板岩",
+    "kubejs.ponder.deepore_gen.text_4": "§7等待片刻就會有礦物替換§d深板岩§7了",
+    
+    "kubejs.ponder.wither_machine.header":"凋零機多方塊結構",
+    "kubejs.ponder.wither_machine.text_1":"§d凋零機§7，要在§b壓縮空間維度§7才會工作",
+    "kubejs.ponder.wither_machine.text_2":"§d終界合金玻璃",
+    "kubejs.ponder.wither_machine.text_3":"§7放置凋零結構",
+    "kubejs.ponder.wither_machine.text_4":"§7在機器工作結束時，會消耗凋零結構，\n§7並在機器裡產出§d地獄之星",
+
+    "kubejs.ponder.gaia_machine.header":"蓋亞機多方塊結構",
+    "kubejs.ponder.gaia_machine.text_1":"§7蓋亞儀式擺放方法",
+    "kubejs.ponder.gaia_machine.text_2":"§d蓋亞機",
+
+    "kubejs.ponder.golden_hand.header":"金製手部件多方塊製作"
+}

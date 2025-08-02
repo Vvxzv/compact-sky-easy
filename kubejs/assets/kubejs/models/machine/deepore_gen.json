@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"1": "kubejs:block/custom_machinery/deepore_gen/deepore_gen_side",
+		"2": "minecraft:block/end_stone",
+		"3": "kubejs:block/custom_machinery/deepore_gen/deepore_gen_side1",
+		"4": "kubejs:block/custom_machinery/deepore_gen/deepore_gen_top",
+		"particle": "kubejs:block/custom_machinery/deepore_gen/deepore_gen_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade":false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute positioned ~1 ~2 ~ if block ~ ~ ~ water run setblock ~ ~ ~ air

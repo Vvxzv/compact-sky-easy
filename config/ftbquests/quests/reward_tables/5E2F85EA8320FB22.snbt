@@ -1,0 +1,56 @@
+{
+	id: "5E2F85EA8320FB22"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "buildinggadgets:gadget_copy_paste"
+				tag: {
+					energy: 500000.0d
+					mode: 0b
+					template_id: [I;
+						690503180
+						34949503
+						-1977573808
+						727447494
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "buildinggadgets:gadget_exchanging"
+				tag: {
+					energy: 500000.0d
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "buildinggadgets:gadget_building"
+				tag: {
+					energy: 500000.0d
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "小帮手"
+}

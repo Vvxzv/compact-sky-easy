@@ -1,0 +1,147 @@
+{
+    "name": "mana_centrifuge",
+    "appearance": {
+        "block": "kubejs:machine/mana_centrifuge",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/mana_centrifuge_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "type": "custommachinery:reset",
+            "x": 220,
+            "y": 25
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 230,
+            "y": 45
+        },
+        {
+            "id":"input1",
+            "x":60,
+            "y":25,
+            "type":"custommachinery:mana"
+        },
+        {
+            "id": "input2",
+            "x": 87,
+            "y": 35,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output1",
+            "x": 149,
+            "y": 25,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output2",
+            "x": 169,
+            "y": 25,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output3",
+            "x": 189,
+            "y": 25,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output4",
+            "x": 149,
+            "y": 45,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output5",
+            "x": 169,
+            "y": 45,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "output6",
+            "x": 189,
+            "y": 45,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 116,
+            "y": 35,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "mana_centrifuge",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode":"input",
+            "id":"input1",
+            "type": "custommachinery:mana",
+            "capacity": 10000
+        },
+        {
+            "mode": "input",
+            "id": "input2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output1",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output4",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output5",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output6",
+            "type": "custommachinery:item"
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ],
+    "catalysts": []
+  }

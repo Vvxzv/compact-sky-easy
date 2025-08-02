@@ -1,0 +1,8 @@
+{
+    "item.refinedstorage.raw_basic_processor": "incomplete logical processor",
+    "item.refinedstorage.raw_improved_processor": "incomplete calculation processor",
+    "item.refinedstorage.raw_advanced_processor": "incomplete module processor",
+    "item.refinedstorage.basic_processor": "logical processor",
+    "item.refinedstorage.improved_processor": "calculation processor",
+    "item.refinedstorage.advanced_processor": "module processor"
+}

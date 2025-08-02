@@ -1,0 +1,144 @@
+{
+    "name": "advanced_lapis_crystallize_controller",
+    "appearance": {
+        "block": "kubejs:machine/advanced_lapis_crystallize_controller",
+        "lightlevel": 0,
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "components": [
+        {
+            "mode": "output",
+            "id": "slot1",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot4",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot5",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot6",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot7",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot8",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "slot9",
+            "type": "custommachinery:item"
+        }
+    ],
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "type": "custommachinery:reset",
+            "x": 220,
+            "y": 25
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 230,
+            "y": 45
+        },
+        {
+            "id":"slot8",
+            "x":122,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot5",
+            "x":122,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot2",
+            "x":122,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot1",
+            "x":102,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot4",
+            "x":102,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot7",
+            "x":102,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot3",
+            "x":142,
+            "y":12,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot6",
+            "x":142,
+            "y":32,
+            "type":"custommachinery:slot"
+        },
+        {
+            "id":"slot9",
+            "x":142,
+            "y":52,
+            "type":"custommachinery:slot"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "text": "advanced_lapis_crystallize_controller",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ]
+}

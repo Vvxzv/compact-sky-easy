@@ -1,0 +1,1 @@
+execute unless entity @e[distance=...5,tag=deepore,type=marker,limit=1] run summon marker ~ ~ ~ {Tags:["deepore"]}
